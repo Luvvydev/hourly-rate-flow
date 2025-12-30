@@ -1,4 +1,5 @@
 <div align="center"> <img src="hours.png" alt="Hourly Rate Flow Application Screenshot" width="600"> </div>
+
 # Hourly Rate Flow
 
 A customizable desktop application for tracking hourly work and earnings with configurable rates. Perfect for freelancers, servers, bartenders, contractors, and any hourly worker.
