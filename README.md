@@ -28,3 +28,43 @@ A customizable desktop application for tracking hourly work and earnings with co
    ```bash
    git clone https://github.com/Luvvydev/hourly-rate-flow.git
    cd hourly-rate-flow
+
+## Usage
+
+### First Launch
+When you first run the app, it will use default rates:
+- Base rate: $7.00/hour
+- Average tips: $23.15/hour (optional)
+
+### Configuring Your Rates
+1. Click the **"⚙ Settings"** button in the top-right corner
+2. Set your **Base Hourly Rate** (your wage before tips)
+3. Choose whether to **Include tips** in calculations
+4. If including tips, set your **Average tips per hour**
+5. Click **"Save & Apply"**
+
+### Logging Hours
+1. **Date**: Defaults to today (can be changed)
+2. **Hours**: Enter hours worked (use quick buttons 1h-8h for convenience)
+3. **Note** (optional): Click "➕ Add Note" to add context
+4. Click **"Add Entry"** or press **Enter**
+
+### Features Overview
+- **Quick Hour Buttons**: 1h-8h presets for fast entry
+- **Period Management**: Start new periods to organize your work
+- **Visual Progress**: See your earnings projection visually
+- **Recent Entries**: View, scroll, and manage your logged hours
+- **Data Export**: Export all data to a text file
+- **Clear All Data**: Reset the application completely
+
+## Data Storage
+
+Your data is stored in two locations:
+
+1. **Database**: `~/.ledgerflow.db` (SQLite database)
+   - Stores all your work entries and periods
+   - Automatically created in your home directory
+
+2. **Settings**: `~/.ledgerflow_settings.json`
+   - Stores your configured rates and current period
+   - Persists between sessions
