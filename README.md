@@ -27,7 +27,7 @@ A customizable desktop application for tracking hourly work and earnings with co
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Luvvydev/hourly-rate-flow.git
-   cd hourly-rate-flow
+   cd hourstrack
 
 ## Usage
 
